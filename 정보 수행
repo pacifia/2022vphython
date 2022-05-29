@@ -1,0 +1,14 @@
+Web VPython 3.2
+import random
+for i in range(1000) :
+  x = random.randint(-100,100)
+  y = random.randint(-100,100)
+  z = random.randint(-100,100)
+  if i % 4 == 0 :
+    box(pos = vec(x,y,z), color = color.red)
+  elif i%4 == 1 :
+    box(pos = vec(x,y,z), color = color.green)
+  elif i%4==2 :
+      box(pos=vec(x,y,z), color = color.blue)
+  else:
+       box(pos=vec(x,y,z), color=color.yellow)
