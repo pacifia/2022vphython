@@ -13,7 +13,7 @@ while True:
     if L<=15: 
             tree.append(box(pos=vec(x*2,y,z*2), color=color.green, size=vec(L,4*L,L)))
     else:
-        tree.append(box(pos=vec(x,y,z), color=vec(0,0,0), size=vec(L,2*L+20,L)))
+        tree.append(box(pos=vec(x,y,z), color=vec(1,1,1), size=vec(L,2*L+20,L)))
         k=2*L
         for b in range(p):
             k=k+L
